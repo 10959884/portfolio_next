@@ -17,13 +17,15 @@ export const DATA = {
     "Angular.js",
     "Typescript",
     "Node.js",
-    "Lightroom",
     "HTML",
     "CSS",
     "Flutterflow",
     "Figma",
-    "Java",
+    "Javascript",
     "Spline",
+    "Metabase",
+    "Roboflow",
+    "FL Studio",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -146,7 +148,7 @@ export const DATA = {
       end: "2017",
     },
     {
-      school: "•	Association International School",
+      school: "Association International School",
       href: "https://ais.edu.gh/",
       degree: "Primary School",
       logoUrl: "/ais.jpeg",
@@ -156,33 +158,35 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Plant Dori",
-      href: "https://plantdori.netlify.app/",
+      title: "OrthoDental",
+      href: "https://orthoenv2.netlify.app/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
-      description: "Basic reminder application foor my plant(Dori)",
-      technologies: ["Angular.js", "Javascript", "CSS"],
+      description:
+        "An app that uses object detection to detect faults in dental formula",
+      technologies: ["Next JS", "Typescript", "Roboflow"],
       links: [
         {
           type: "Website",
-          href: "https://plantdori.netlify.app/",
+          href: "https://orthoenv2.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/plannt.png",
+      image: "/orthodental.png",
       video: "",
     },
     {
-      title: "Rock Paper Scissors",
-      href: "https://rock-papar-scissors-plus.netlify.app/",
+      title: "Sentio ",
+      href: "http://sentio-analysis.vercel.app",
       dates: "June 2023 - July 2023",
       active: true,
-      description: "Basic rock paper scissors game.",
-      technologies: ["Angular.js", "Typescript", "CSS"],
+      description:
+        "A full-stack platform that performs Natural Language Processing (NLP) and API orchestration to deliver dynamic, real-time media sentiment analysis across any user-defined niche.",
+      technologies: ["Next JS", "Typescript", "CSS"],
       links: [
         {
           type: "Website",
-          href: "https://rock-papar-scissors-plus.netlify.app/",
+          href: "http://sentio-analysis.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -191,20 +195,21 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/rock.png",
+      image: "/anomalyze.png",
       video: "",
     },
     {
-      title: "Clinic",
-      href: "https://ugclinic2.netlify.app/",
+      title: "DiGi Tours",
+      href: "v0-katachi-hazel-sigma.vercel.app",
       dates: "April 2023 - September 2023",
       active: true,
-      description: "Appointmemt booking for my school clininc.",
-      technologies: ["React", "Typescript", "CSS"],
+      description:
+        "Tourism website that provides information about tourist destinations, travel packages, and booking options.",
+      technologies: ["Next JS", "Typescript", "CSS"],
       links: [
         {
           type: "Website",
-          href: "https://ugclinic2.netlify.app/",
+          href: "v0-katachi-hazel-sigma.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -213,7 +218,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/clinic.png",
+      image: "/digitours.png",
       video: "",
     },
     {
@@ -222,7 +227,7 @@ export const DATA = {
       dates: "April 2023 - Present",
       active: true,
       description: "Shots",
-      technologies: ["Lightroom", "Canon 4000D", "iPhone XS"],
+      technologies: ["Lightroom", "Canon 4000D", "iPhone 14"],
       links: [
         {
           type: "Image",
