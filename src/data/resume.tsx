@@ -200,7 +200,7 @@ export const DATA = {
     },
     {
       title: "DiGi Tours",
-      href: "v0-katachi-hazel-sigma.vercel.app",
+      href: "http://v0-katachi-hazel-sigma.vercel.app",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -209,7 +209,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "v0-katachi-hazel-sigma.vercel.app",
+          href: "http://v0-katachi-hazel-sigma.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
